@@ -3,8 +3,8 @@
 
 缺陷：拉去个人信息，需要手动修改cookies
 
-Golang 爬虫
-爬虫结构
+## Golang 爬虫
+![image](https://user-images.githubusercontent.com/87933599/126904822-37005c5c-89aa-4b31-8742-829af1c1fd74.png)
 
 获取珍爱网所有城市第一页用户的详情
 Fetcher 获取目标页面代码
