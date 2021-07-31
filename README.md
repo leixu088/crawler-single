@@ -41,6 +41,8 @@ transform.NewReader将指定编码类型转换成utf8
 ![image](https://user-images.githubusercontent.com/87933599/126904923-0746517e-5247-44eb-bebe-83270b65d290.png)
 
 ![image](https://user-images.githubusercontent.com/87933599/126904910-9cf5252f-3888-477e-b68e-26dc68b097b9.png)
+
+避免循环等待，每个request新建一个goroutine，请求的完成就结束
 ![image](https://user-images.githubusercontent.com/87933599/127733237-f087f585-5c58-4f10-bd9d-30898bbd01eb.png)
 
 ![image](https://user-images.githubusercontent.com/87933599/126904921-84730ada-a498-47de-b794-ce6f35841bc5.png)
